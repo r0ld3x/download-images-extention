@@ -1,0 +1,19 @@
+{
+  "name": "download-images-extension",
+  "version": "1.0.0",
+  "main": "src/popup.js",
+  "scripts": {
+    "test": "jest src",               
+    "build": "web-ext build -s src",  
+    "start": "web-ext run -s src"     
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jsdom": "^25.0.1",
+    "web-ext": "^8.3.0"
+  }
+}
